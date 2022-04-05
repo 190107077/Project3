@@ -1,0 +1,141 @@
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signin {
+    position: absolute;
+    height: 84px;
+    left: 43.26%;
+    right: 43.26%;
+    top: calc(50% - 84px/2 - 180px);
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 84px;
+    /* identical to box height */
+
+    letter-spacing: 0.1px;
+
+    /* main */
+
+    color: #59A22D;
+}
+
+.signform {
+    position: absolute;
+    left: 30.56%;
+    right: 30.56%;
+    top: 39.89%;
+    bottom: 25.22%;
+
+    background: #FFFFFF;
+    box-shadow: 3px -5px 40px rgba(205, 205, 212, 0.1);
+    border-radius: 20px
+}
+
+.username{
+    position: absolute;
+    height: 14px;
+    left: 4%;
+    right: 71.4%;
+    top: 8.24%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    
+    
+    /* d */
+    
+    color: #9EA3A9;
+}
+
+.usernameinput{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 17.24%;
+    bottom: 0%;
+    width: 500px;
+    height: 45px;
+
+    /* d */
+
+    border: 1px solid #9EA3A9;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.passwordinput {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 54.24%;
+    bottom: 0%;
+    width: 500px;
+    height: 45px;
+
+    /* Red */
+
+    border: 1px solid #9EA3A9;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.password {
+    position: absolute;
+    height: 14px;
+    left: 4%;
+    right: 71.4%;
+    top: 48.24%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    
+    
+    /* d */
+    
+    color: #9EA3A9;
+}
+
+.checkdiv {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    right: 71.4%;
+    top: 82.56%;
+    bottom: 0;
+}
+
+.forgotpass {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: 82.56%;
+    bottom: 0;
+    left: 48.24%;
+}
+
+.sign {
+    position: absolute;
+    height: 50px;
+    width: 500px;
+    left: 30.95%;
+    right: 71.4%;
+    top: 75.24%;
+    background: #59A22D;
+    border-radius: 10px;
+}
